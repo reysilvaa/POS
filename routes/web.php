@@ -13,7 +13,7 @@ Route::prefix('products')->group(function () {
     Route::get('/category/food-beverage', [ProductController::class, 'foodBeverage']);
     Route::get('/category/beauty-health', [ProductController::class, 'beautyHealth']);
     Route::get('/category/home-care', [ProductController::class, 'homeCare']);
-    Route::get('/category/baby_kid', [ProductController::class, 'babyKid']);
+    Route::get('/category/baby-kid', [ProductController::class, 'babyKid']);
 });
 
 Route::get('/user/{id}/name/{name}', [UserController::class, 'user']);
